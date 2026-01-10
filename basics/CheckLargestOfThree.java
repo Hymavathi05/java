@@ -5,10 +5,13 @@ public static void main(String[] args) {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter 1st number");
 		int a=sc.nextInt();
+	    a=Math.abs(a);
 		System.out.println("Enter 2nd number");
 		int b=sc.nextInt();
+	    b=Math.abs(b);
 		System.out.println("Enter 3rd number");
 		int c=sc.nextInt();
+	    c=Math.abs(c);
 		if(a==b && b==c)
 		{
 			System.out.println("All three numbers are equal");
@@ -29,3 +32,4 @@ public static void main(String[] args) {
 	}
 
 }
+
