@@ -5,6 +5,7 @@ public class Even_Odd {
 		Scanner sc=new Scanner(System.in);
 		System.out.println("Enter number:");
 		int n=sc.nextInt();
+	    n=Math.abs(n);
 		if(n==0)
 		{
 			System.out.println("0 is even");
@@ -20,3 +21,4 @@ public class Even_Odd {
 		sc.close();
 }
 }
+
